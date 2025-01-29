@@ -1,0 +1,188 @@
+.top-container{
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100%; 
+}
+
+.top-container img {
+width: 100%;
+height: 550px;
+}
+.title-text{
+  color: #655651;
+  align-content: center;
+  font-style: normal;
+  position: absolute;
+  padding: 10px;
+  font-size: 2rem;
+  font-family: "Old Standard TT", serif;
+  font-weight: 400;
+  font-style: oblique;
+}
+h2{
+  padding-bottom: 10px;
+}
+
+.Pro{
+  font-family: "Pacifico", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+.profile{
+ width: 20%;
+ border-radius: 50%;
+ padding: 20px;
+}
+h3{
+  color: #9e847a;
+  font-family: "Old Standard TT", serif;
+  font-weight: lighter;
+  font-style: oblique;
+  font-size: 1.5rem;
+  margin-top: 10px;
+  margin-bottom:5px;
+}
+.my-skills{
+  color:#ba8f67 ;
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  font-family: "Old Standard TT", serif;
+  font-weight:bold;
+  font-style: italic;
+}
+.skill-container {
+  display:flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+  margin-top: 20px;
+  padding: 20px;
+}
+.skill{
+  height: 260px;
+  width: 460px;
+  background-color: #F5EFE7;
+  text-align: center;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+
+}
+.image{
+  border-radius: 10px;
+  float: left;
+  margin: 5px;
+  border-radius: 10%;
+}
+p{
+  font-size: 1em;
+  color: #666;
+  line-height: 1.5;
+  padding: 5px;
+}
+.contact{
+  margin: 20px;
+  padding: 10px;;
+}
+#getintouch{
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  color: #9e847a;
+  font-family: "Old Standard TT", serif;
+  font-weight: bold;
+  font-style: oblique;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .top-container {
+      flex-direction: column;
+      height: auto;
+  }
+
+  .top-container img {
+      height: 300px;
+  }
+
+  .title-text {
+      font-size: 1.5rem;
+      padding: 5px;
+  }
+
+  .profile {
+      width: 50%; 
+      padding: 10px;
+  }
+
+  h3 {
+      font-size: 1.2rem;
+  }
+
+  .my-skills {
+      font-size: 2rem;
+      display: flex;
+      margin-top: 20px;
+      justify-content: center;
+      font-family: "Old Standard TT", serif;
+      font-weight:bold;
+      font-style: italic;
+  }
+
+  .skill-container {
+      flex-direction: column; 
+      align-items: center; 
+      gap: 20px; 
+  }
+
+  .skill {
+      width: 90%;
+      max-width: 400px; 
+  }
+
+  p {
+      font-size: 0.9em; 
+  }
+
+  .contact {
+      margin: 10px; 
+      padding: 5px; 
+  }
+
+  #getintouch {
+      font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .top-container img {
+      height: 200px;
+  }
+
+  .title-text {
+      font-size: 1.2rem; 
+  }
+
+  .profile {
+      width: 70%; 
+  }
+
+  h3 {
+      font-size: 1rem; 
+  }
+
+  .my-skills {
+      font-size: 1rem;
+  }
+
+  .skill {
+      width: 100%;
+  }
+
+  #getintouch {
+      font-size: 2rem;
+  }
+}
